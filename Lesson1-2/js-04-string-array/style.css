@@ -1,0 +1,17 @@
+body
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	background: #eee;
+}
+
+form *
+{
+	text-align: center;
+	display: block;
+	margin: 5px auto;
+}
+input
+{
+	padding: 5px;
+}

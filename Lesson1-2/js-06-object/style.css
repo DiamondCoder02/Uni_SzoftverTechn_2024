@@ -1,0 +1,33 @@
+body
+{
+	font-family: sans-serif;
+	color: #444;
+}
+
+form
+{
+	margin-bottom: 25px;
+	text-align: center;
+}
+	form div
+	{
+		margin-bottom: 10px;
+	}
+	label
+	{
+		display: block;
+	}
+
+table
+{
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+	margin: auto;
+}
+	table th,
+	table td
+	{
+		padding: 5px 10px;
+		text-align: center;
+		border: 1px solid #aaa;
+	}

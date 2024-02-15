@@ -1,0 +1,40 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #777;
+	-webkit-user-select: none;
+	background: #84beec;
+}
+
+body > section
+{
+	width: 400px;
+	position: absolute;
+	background: #fff;
+	left: 50px;
+	top: 50px;
+	box-shadow: 1px 2px 15px rgba(0,0,0, 0.25);
+}
+body > section:nth-child(2)
+{
+	top: 100px;
+	left: 500px;
+}
+	body > section h2
+	{
+		margin: 0;
+		padding: 10px;
+		background: #777;
+		color: #fff;
+		font-size: 110%;
+	}
+	body > section .inside
+	{
+		padding: 25px;
+	}
+		body > section p
+		{
+			margin-top: 0;
+		}
