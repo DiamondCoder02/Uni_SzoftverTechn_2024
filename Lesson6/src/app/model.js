@@ -1,11 +1,21 @@
-function() {
-	console.log('model.js');
-}
+const Model = (function() {
+	var number;
 
-const Model = {
-	number: 0,
-	PrepareNewGame: function (bottom, top) {
-		this.number = Math.floor(Math.random() * (top - bottom + 1)) + bottom;
-		console.log(this.number);
+	var self = {
+		PrepareNewGame: function (bottom, top) {
+			number = Math.floor(Math.random() * (top - bottom + 1)) + bottom;
+			console.log(number);
+		},
+		RegisterGuess: function (guess) {
+			// response = 
+		},
+		IsCorrect: function () {
+
+		},
+		GetRespone: function () {
+
+		}
 	}
-}
+
+	return self;
+})();

@@ -3,6 +3,17 @@ const TOP = 1000;
 const LIVES = 10;
 
 Model.PrepareNewGame(BOTTOM, TOP);
+Model.RegisterGuess(500);
+console.log(Model.IsCorrect());
+console.log(Model.GetRespone());
+
+Model.RegisterGuess(150);
+console.log(Model.IsCorrect());
+console.log(Model.GetRespone());
+
+Model.RegisterGuess(700);
+console.log(Model.IsCorrect());
+console.log(Model.GetRespone());
 
 View.PrepareStartScreen(BOTTOM, TOP);
 View.OnStartClick(() => {
