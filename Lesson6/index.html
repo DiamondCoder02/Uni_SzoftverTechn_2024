@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	
+	<meta charset="UTF-8">
+	
+	<title>Gondoltam egy számra Játék Alkalmazás</title>
+    
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    
+    <meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	
+	<link rel="stylesheet" href="src/style.css">
+	<link rel="stylesheet" href="src/resp.css">
+	<link rel="stylesheet" href="src/trans.css">
+	
+</head>
+<body>
+	
+	<div class="app">
+		<div class="container">
+		
+			<div id="title-bar">
+				<div class="inside">
+					<div>
+						<h1>
+							Gondoltam egy számra
+							<span>Játék Alkalmazás</span>
+						</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div id="main">
+				
+				<!-- KEZDŐKÉPERNYŐ -->
+				<div class="screen start">
+					
+					<section class="message">
+						<h2>Gondoltam egy számra<span>AAA és BBB között</span></h2>
+					</section>
+
+					<section class="guess">
+
+						<h3>Kitalálod?</h3>
+
+						<form action="">
+							<button>Kezdjük!</button>	
+						</form>
+
+					</section>
+					
+				</div>
+				
+				<!-- JÁTÉK KÉPERNYŐ -->
+				<div class="screen game hidden">
+					
+					<section class="message hidden">
+						<h2>A szám a tippednél <span>nagyobb</span></h2>
+					</section>
+
+					<section class="guess">
+
+						<h3></h3>
+
+						<form action="">
+							<div>
+								<label for="guess">Mit tippelsz?</label>
+								<input type="number" id="guess" value="">
+							</div>
+							<button>Beküld</button>	
+						</form>
+
+					</section>
+					
+				</div>
+				
+				<!-- VÉGE KÉPERNYŐ -->
+				<div class="screen end hidden">
+					
+					<section class="message">
+						<h2>Vége a játéknak<span>Nyertél!</span></h2>
+					</section>
+
+					<section class="guess">
+
+						<h3>Még egy menet?</h3>
+
+						<form action="">
+							<button>Új játék!</button>	
+						</form>
+
+					</section>
+					
+				</div>
+				
+			</div>
+			
+			<div id="status-bar">
+				<div class="inside">
+					<div>
+						<div>
+							<span>JavaScript gyakorló feladat</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	
+	<script src="src/app/model.js"></script>
+	<script src="src/app/view.js"></script>
+	<script src="src/script.js"></script>
+	
+</body>
+</html>
