@@ -1,5 +1,7 @@
 const Model = (function() {
 	var number;
+	var response;
+	var remain;
 
 	var self = {
 		PrepareNewGame: function (bottom, top) {
